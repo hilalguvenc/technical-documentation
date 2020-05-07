@@ -13,8 +13,8 @@
   </head>
   <body>
     <main id="main-doc">
-      <section class="main-section">
-        <header id="indroduction">Introduction</header>
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
         <p>
           JavaScript is a cross-platform, object-oriented scripting language. It
           is a small and lightweight language. Inside a host environment (for
@@ -46,8 +46,8 @@
           </li>
         </ul>
       </section>
-      <section class="main-section">
-        <header id="what_you_should">What you should already know</header>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
         <p>This guide assumes you have the following basic background:</p>
         <ul>
           <li>
@@ -61,8 +61,8 @@
           </li>
         </ul>
       </section>
-      <section class="main-section">
-        <header id="javascript_and_java">JavaScript and Java</header>
+      <section class="main-section" id="JavaScript_and_Java">
+        <header>JavaScript and Java</header>
         <p>
           JavaScript and Java are similar in some ways but fundamentally
           different in some others. The JavaScript language resembles Java but
@@ -90,19 +90,23 @@
           parameters, and function return types are not explicitly typed.
         </p>
       </section>
-      <section class="main-section">
-        <header id="hello_world">Hello world</header>
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
         <p>
           To get started with writing JavaScript, open the Scratchpad and write
           your first "Hello world" JavaScript code:
         </p>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }<br />
+          greetMe("World");
+        </code>
         <p>
           Select the code in the pad and hit Ctrl+R to watch it unfold in your
           browser!
         </p>
       </section>
-      <section class="main-section">
-        <header id="variables">Variables</header>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
         <p>
           You use variables as symbolic names for values in your application.
           The names of variables, called identifiers, conform to certain rules.
@@ -121,8 +125,8 @@
           Number_hits, temp99, and _name.
         </p>
       </section>
-      <section class="main-section">
-        <header id="declaring_variables">Declaring variables</header>
+      <section class="main-section" id="Declaring_variables">
+        <header>Declaring variables</header>
         <p>You can declare a variable in three ways:</p>
         <p>With the keyword var. For example,</p>
         <p id="grey-content">var x = 42.</p>
@@ -142,6 +146,31 @@
           Variable scope below.
         </p>
       </section>
+      <nav id="navbar">
+        <header>
+          JS Documentation
+        </header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li>
+            <a class="nav-link" href="#What_you_should_already_know"
+              >What you should already know</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="#JavaScript_and_Java"
+              >JavaScript and Java</a
+            >
+          </li>
+          <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+          <li><a class="nav-link" href="#Variables">Variables</a></li>
+          <li>
+            <a class="nav-link" href="#Declaring_variables"
+              >Declaring variables</a
+            >
+          </li>
+        </ul>
+      </nav>
     </main>
   </body>
 </html>
